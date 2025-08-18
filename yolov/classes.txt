@@ -1,5 +1,0 @@
-broken_grain
-complete_grain
-yellow_grain
-milky_grain
-milky_broken_grain

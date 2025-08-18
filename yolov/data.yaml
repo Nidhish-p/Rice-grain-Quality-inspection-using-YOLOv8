@@ -1,6 +1,0 @@
-path: /content/drive/MyDrive/yolov8 
-train: yolov8/train/images    
-val: yolov8/val/images        
-
-nc: 5
-names: ['broken_grain','complete_grain','yellow_grain','milky_grain','milky_broken_grain']  
