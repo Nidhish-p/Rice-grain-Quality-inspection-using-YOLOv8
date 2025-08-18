@@ -1,0 +1,6 @@
+path: dataset
+train: train/images
+val: val/images
+
+nc: 5
+names: ['broken_grain','complete_grain','yellow_grain','milky_grain','milky_broken_grain']  
