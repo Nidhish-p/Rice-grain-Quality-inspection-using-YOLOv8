@@ -22,7 +22,7 @@ from utils.update_steps import (
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # ------------ Initialize video and model ------------
-video_path = 'demo/grains3.mp4'
+video_path = 'demo/input_video.mp4'
 cap = cv2.VideoCapture(video_path)
 model = YOLO('models/bestv8m.pt')
 model.to(device)
