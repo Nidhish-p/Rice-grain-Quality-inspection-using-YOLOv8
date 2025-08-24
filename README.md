@@ -23,8 +23,6 @@ This project aims to **automate grain inspection** by:
 - ✅ **Consistent counting** → Grains are not double-counted across frames  
 - ✅ **Automated reporting** → Final per-class grain counts after video processing  
 
-## Output Video Frame
-<img src="imag/frame2.png" width="400">
 ## 🛠️ Tech Stack
 - **Python** (OpenCV, NumPy, SciPy)  
 - **YOLOv8** (Ultralytics) for detection & classification  
@@ -54,8 +52,15 @@ This subset was chosen for the initial proof of concept to demonstrate the feasi
 
 
 ## 🎥 Demo
-- Input video : https://drive.google.com/file/d/1OjnFaMEnofQ3uxBp18bfvStkwYUYSC1U/view?usp=sharing
-- watch Output video on : https://drive.google.com/file/d/15SHCdhua_MHmCiFbo6SAK701jzx-wXp2/view?usp=sharing
+
+### Input Video Frame
+<img src="demo/input_frame.png" width="400">
+
+### Output Video Frame
+<img src="demo/output_frame.png" width="400">
+
+#### Input video : https://drive.google.com/file/d/1OjnFaMEnofQ3uxBp18bfvStkwYUYSC1U/view?usp=sharing
+#### Output video : https://drive.google.com/file/d/15SHCdhua_MHmCiFbo6SAK701jzx-wXp2/view?usp=sharing
 
 ## 📊 Grain Counts by Class (example output on input video)
 Grain counts by class:
